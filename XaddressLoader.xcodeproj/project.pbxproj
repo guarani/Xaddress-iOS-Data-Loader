@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32466F331DB2AE43004E0673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466F321DB2AE43004E0673 /* ViewController.swift */; };
+		32466F361DB2AE43004E0673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32466F341DB2AE43004E0673 /* Main.storyboard */; };
+		32466F3B1DB2AE43004E0673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32466F3A1DB2AE43004E0673 /* Assets.xcassets */; };
+		32466F3E1DB2AE43004E0673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32466F3C1DB2AE43004E0673 /* LaunchScreen.storyboard */; };
+		32466F491DB2AE43004E0673 /* XaddressLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466F481DB2AE43004E0673 /* XaddressLoaderTests.swift */; };
+		32466F541DB2AE43004E0673 /* XaddressLoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466F531DB2AE43004E0673 /* XaddressLoaderUITests.swift */; };
+		32466F6E1DB2B37B004E0673 /* adjectives.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F6D1DB2B37B004E0673 /* adjectives.csv */; };
+		32466F701DB2B5BB004E0673 /* nouns.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F6F1DB2B5BB004E0673 /* nouns.csv */; };
+		32466F8F1DB2BB0E004E0673 /* countries.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F8E1DB2BB0E004E0673 /* countries.csv */; };
+		32466F911DB2BB28004E0673 /* states.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F901DB2BB28004E0673 /* states.csv */; };
+		32466FD81DB2C01C004E0673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FD71DB2C01C004E0673 /* AppDelegate.swift */; };
+		32466FF11DB2C085004E0673 /* State+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FE91DB2C085004E0673 /* State+CoreDataProperties.swift */; };
+		32466FF21DB2C085004E0673 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEA1DB2C085004E0673 /* State.swift */; };
+		32466FF31DB2C085004E0673 /* Adjective+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEB1DB2C085004E0673 /* Adjective+CoreDataProperties.swift */; };
+		32466FF41DB2C085004E0673 /* Adjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEC1DB2C085004E0673 /* Adjective.swift */; };
+		32466FF51DB2C085004E0673 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FED1DB2C085004E0673 /* Country+CoreDataProperties.swift */; };
+		32466FF61DB2C085004E0673 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEE1DB2C085004E0673 /* Country.swift */; };
+		32466FF71DB2C085004E0673 /* Noun+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEF1DB2C085004E0673 /* Noun+CoreDataProperties.swift */; };
+		32466FF81DB2C085004E0673 /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FF01DB2C085004E0673 /* Noun.swift */; };
+		32466FFB1DB2C186004E0673 /* XaddressLoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32466FF91DB2C186004E0673 /* XaddressLoader.xcdatamodeld */; };
+		3C410D298FB2E36E167D8F40 /* Pods_XaddressLoaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B438818F91F8C6CDAB7FDEB /* Pods_XaddressLoaderUITests.framework */; };
+		6FA5FD2C7771AA41D173AE27 /* Pods_XaddressLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8325EFD94E2BA37857A8E141 /* Pods_XaddressLoader.framework */; };
+		8821DD5A3459009712185E70 /* Pods_XaddressLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53D99785993B1538F0DE533 /* Pods_XaddressLoaderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32466F451DB2AE43004E0673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32466F251DB2AE43004E0673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32466F2C1DB2AE43004E0673;
+			remoteInfo = XaddressLoader;
+		};
+		32466F501DB2AE43004E0673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32466F251DB2AE43004E0673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32466F2C1DB2AE43004E0673;
+			remoteInfo = XaddressLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02710338D7884866AF298D23 /* Pods-XaddressLoaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderTests/Pods-XaddressLoaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		32466F2D1DB2AE43004E0673 /* XaddressLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XaddressLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32466F321DB2AE43004E0673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32466F351DB2AE43004E0673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32466F3A1DB2AE43004E0673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32466F3D1DB2AE43004E0673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32466F3F1DB2AE43004E0673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32466F441DB2AE43004E0673 /* XaddressLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XaddressLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32466F481DB2AE43004E0673 /* XaddressLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XaddressLoaderTests.swift; sourceTree = "<group>"; };
+		32466F4A1DB2AE43004E0673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32466F4F1DB2AE43004E0673 /* XaddressLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XaddressLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32466F531DB2AE43004E0673 /* XaddressLoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XaddressLoaderUITests.swift; sourceTree = "<group>"; };
+		32466F551DB2AE43004E0673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32466F6D1DB2B37B004E0673 /* adjectives.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adjectives.csv; sourceTree = "<group>"; };
+		32466F6F1DB2B5BB004E0673 /* nouns.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nouns.csv; sourceTree = "<group>"; };
+		32466F8E1DB2BB0E004E0673 /* countries.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.csv; sourceTree = "<group>"; };
+		32466F901DB2BB28004E0673 /* states.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = states.csv; sourceTree = "<group>"; };
+		32466FD71DB2C01C004E0673 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32466FE91DB2C085004E0673 /* State+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "State+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32466FEA1DB2C085004E0673 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		32466FEB1DB2C085004E0673 /* Adjective+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Adjective+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32466FEC1DB2C085004E0673 /* Adjective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adjective.swift; sourceTree = "<group>"; };
+		32466FED1DB2C085004E0673 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32466FEE1DB2C085004E0673 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		32466FEF1DB2C085004E0673 /* Noun+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Noun+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32466FF01DB2C085004E0673 /* Noun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
+		32466FFA1DB2C186004E0673 /* XaddressLoader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XaddressLoader.xcdatamodel; sourceTree = "<group>"; };
+		34FA3B3E4E504783CCA2C6B7 /* Pods-XaddressLoaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderTests/Pods-XaddressLoaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B438818F91F8C6CDAB7FDEB /* Pods_XaddressLoaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XaddressLoaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F722F745C52AA9C581EC8A /* Pods-XaddressLoaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderUITests/Pods-XaddressLoaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8325EFD94E2BA37857A8E141 /* Pods_XaddressLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XaddressLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E6AE9A9FD89F09102938B7 /* Pods-XaddressLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoader/Pods-XaddressLoader.debug.xcconfig"; sourceTree = "<group>"; };
+		C53D99785993B1538F0DE533 /* Pods_XaddressLoaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XaddressLoaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6596FEB388BB188250A6D2D /* Pods-XaddressLoaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderUITests/Pods-XaddressLoaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8FE847E2FD3BD0853F18089 /* Pods-XaddressLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoader.release.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoader/Pods-XaddressLoader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32466F2A1DB2AE43004E0673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA5FD2C7771AA41D173AE27 /* Pods_XaddressLoader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32466F411DB2AE43004E0673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8821DD5A3459009712185E70 /* Pods_XaddressLoaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32466F4C1DB2AE43004E0673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C410D298FB2E36E167D8F40 /* Pods_XaddressLoaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEA6A24E7CE4CEBC95C3577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2E6AE9A9FD89F09102938B7 /* Pods-XaddressLoader.debug.xcconfig */,
+				F8FE847E2FD3BD0853F18089 /* Pods-XaddressLoader.release.xcconfig */,
+				34FA3B3E4E504783CCA2C6B7 /* Pods-XaddressLoaderTests.debug.xcconfig */,
+				02710338D7884866AF298D23 /* Pods-XaddressLoaderTests.release.xcconfig */,
+				F6596FEB388BB188250A6D2D /* Pods-XaddressLoaderUITests.debug.xcconfig */,
+				57F722F745C52AA9C581EC8A /* Pods-XaddressLoaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32466F241DB2AE43004E0673 = {
+			isa = PBXGroup;
+			children = (
+				32466F2F1DB2AE43004E0673 /* XaddressLoader */,
+				32466F471DB2AE43004E0673 /* XaddressLoaderTests */,
+				32466F521DB2AE43004E0673 /* XaddressLoaderUITests */,
+				32466F2E1DB2AE43004E0673 /* Products */,
+				0EEA6A24E7CE4CEBC95C3577 /* Pods */,
+				FC8594E1F808147EFA510EBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32466F2E1DB2AE43004E0673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32466F2D1DB2AE43004E0673 /* XaddressLoader.app */,
+				32466F441DB2AE43004E0673 /* XaddressLoaderTests.xctest */,
+				32466F4F1DB2AE43004E0673 /* XaddressLoaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32466F2F1DB2AE43004E0673 /* XaddressLoader */ = {
+			isa = PBXGroup;
+			children = (
+				32466FF91DB2C186004E0673 /* XaddressLoader.xcdatamodeld */,
+				32466FE91DB2C085004E0673 /* State+CoreDataProperties.swift */,
+				32466FEA1DB2C085004E0673 /* State.swift */,
+				32466FEB1DB2C085004E0673 /* Adjective+CoreDataProperties.swift */,
+				32466FEC1DB2C085004E0673 /* Adjective.swift */,
+				32466FED1DB2C085004E0673 /* Country+CoreDataProperties.swift */,
+				32466FEE1DB2C085004E0673 /* Country.swift */,
+				32466FEF1DB2C085004E0673 /* Noun+CoreDataProperties.swift */,
+				32466FF01DB2C085004E0673 /* Noun.swift */,
+				32466F8E1DB2BB0E004E0673 /* countries.csv */,
+				32466F901DB2BB28004E0673 /* states.csv */,
+				32466F6D1DB2B37B004E0673 /* adjectives.csv */,
+				32466F6F1DB2B5BB004E0673 /* nouns.csv */,
+				32466FD71DB2C01C004E0673 /* AppDelegate.swift */,
+				32466F321DB2AE43004E0673 /* ViewController.swift */,
+				32466F341DB2AE43004E0673 /* Main.storyboard */,
+				32466F3A1DB2AE43004E0673 /* Assets.xcassets */,
+				32466F3C1DB2AE43004E0673 /* LaunchScreen.storyboard */,
+				32466F3F1DB2AE43004E0673 /* Info.plist */,
+			);
+			path = XaddressLoader;
+			sourceTree = "<group>";
+		};
+		32466F471DB2AE43004E0673 /* XaddressLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				32466F481DB2AE43004E0673 /* XaddressLoaderTests.swift */,
+				32466F4A1DB2AE43004E0673 /* Info.plist */,
+			);
+			path = XaddressLoaderTests;
+			sourceTree = "<group>";
+		};
+		32466F521DB2AE43004E0673 /* XaddressLoaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32466F531DB2AE43004E0673 /* XaddressLoaderUITests.swift */,
+				32466F551DB2AE43004E0673 /* Info.plist */,
+			);
+			path = XaddressLoaderUITests;
+			sourceTree = "<group>";
+		};
+		FC8594E1F808147EFA510EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8325EFD94E2BA37857A8E141 /* Pods_XaddressLoader.framework */,
+				C53D99785993B1538F0DE533 /* Pods_XaddressLoaderTests.framework */,
+				3B438818F91F8C6CDAB7FDEB /* Pods_XaddressLoaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32466F2C1DB2AE43004E0673 /* XaddressLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32466F581DB2AE43004E0673 /* Build configuration list for PBXNativeTarget "XaddressLoader" */;
+			buildPhases = (
+				23826D7D6977A0C760AF174C /* [CP] Check Pods Manifest.lock */,
+				32466F291DB2AE43004E0673 /* Sources */,
+				32466F2A1DB2AE43004E0673 /* Frameworks */,
+				32466F2B1DB2AE43004E0673 /* Resources */,
+				46B1687FCA156DFEABD1EFC8 /* [CP] Embed Pods Frameworks */,
+				3B52D92F25DE961428F7C7DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XaddressLoader;
+			productName = XaddressLoader;
+			productReference = 32466F2D1DB2AE43004E0673 /* XaddressLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32466F431DB2AE43004E0673 /* XaddressLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32466F5B1DB2AE43004E0673 /* Build configuration list for PBXNativeTarget "XaddressLoaderTests" */;
+			buildPhases = (
+				9F7FFDFD4A15AC6C871127AF /* [CP] Check Pods Manifest.lock */,
+				32466F401DB2AE43004E0673 /* Sources */,
+				32466F411DB2AE43004E0673 /* Frameworks */,
+				32466F421DB2AE43004E0673 /* Resources */,
+				DE45507A7261F72DD360E2C5 /* [CP] Embed Pods Frameworks */,
+				F1C842582993A6726CB32AC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32466F461DB2AE43004E0673 /* PBXTargetDependency */,
+			);
+			name = XaddressLoaderTests;
+			productName = XaddressLoaderTests;
+			productReference = 32466F441DB2AE43004E0673 /* XaddressLoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32466F4E1DB2AE43004E0673 /* XaddressLoaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32466F5E1DB2AE43004E0673 /* Build configuration list for PBXNativeTarget "XaddressLoaderUITests" */;
+			buildPhases = (
+				960DD6836C70D8FFD3FC1625 /* [CP] Check Pods Manifest.lock */,
+				32466F4B1DB2AE43004E0673 /* Sources */,
+				32466F4C1DB2AE43004E0673 /* Frameworks */,
+				32466F4D1DB2AE43004E0673 /* Resources */,
+				8E1F4D66C47A173831168C6A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32466F511DB2AE43004E0673 /* PBXTargetDependency */,
+			);
+			name = XaddressLoaderUITests;
+			productName = XaddressLoaderUITests;
+			productReference = 32466F4F1DB2AE43004E0673 /* XaddressLoaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32466F251DB2AE43004E0673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xaddress;
+				TargetAttributes = {
+					32466F2C1DB2AE43004E0673 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					32466F431DB2AE43004E0673 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32466F2C1DB2AE43004E0673;
+					};
+					32466F4E1DB2AE43004E0673 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32466F2C1DB2AE43004E0673;
+					};
+				};
+			};
+			buildConfigurationList = 32466F281DB2AE43004E0673 /* Build configuration list for PBXProject "XaddressLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32466F241DB2AE43004E0673;
+			productRefGroup = 32466F2E1DB2AE43004E0673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32466F2C1DB2AE43004E0673 /* XaddressLoader */,
+				32466F431DB2AE43004E0673 /* XaddressLoaderTests */,
+				32466F4E1DB2AE43004E0673 /* XaddressLoaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32466F2B1DB2AE43004E0673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32466F3E1DB2AE43004E0673 /* LaunchScreen.storyboard in Resources */,
+				32466F3B1DB2AE43004E0673 /* Assets.xcassets in Resources */,
+				32466F6E1DB2B37B004E0673 /* adjectives.csv in Resources */,
+				32466F911DB2BB28004E0673 /* states.csv in Resources */,
+				32466F8F1DB2BB0E004E0673 /* countries.csv in Resources */,
+				32466F361DB2AE43004E0673 /* Main.storyboard in Resources */,
+				32466F701DB2B5BB004E0673 /* nouns.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32466F421DB2AE43004E0673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32466F4D1DB2AE43004E0673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23826D7D6977A0C760AF174C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B52D92F25DE961428F7C7DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XaddressLoader/Pods-XaddressLoader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B1687FCA156DFEABD1EFC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XaddressLoader/Pods-XaddressLoader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1F4D66C47A173831168C6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XaddressLoaderUITests/Pods-XaddressLoaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960DD6836C70D8FFD3FC1625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7FFDFD4A15AC6C871127AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE45507A7261F72DD360E2C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XaddressLoaderTests/Pods-XaddressLoaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C842582993A6726CB32AC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XaddressLoaderTests/Pods-XaddressLoaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32466F291DB2AE43004E0673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32466FFB1DB2C186004E0673 /* XaddressLoader.xcdatamodeld in Sources */,
+				32466FD81DB2C01C004E0673 /* AppDelegate.swift in Sources */,
+				32466FF61DB2C085004E0673 /* Country.swift in Sources */,
+				32466FF31DB2C085004E0673 /* Adjective+CoreDataProperties.swift in Sources */,
+				32466FF41DB2C085004E0673 /* Adjective.swift in Sources */,
+				32466FF11DB2C085004E0673 /* State+CoreDataProperties.swift in Sources */,
+				32466FF71DB2C085004E0673 /* Noun+CoreDataProperties.swift in Sources */,
+				32466FF51DB2C085004E0673 /* Country+CoreDataProperties.swift in Sources */,
+				32466F331DB2AE43004E0673 /* ViewController.swift in Sources */,
+				32466FF21DB2C085004E0673 /* State.swift in Sources */,
+				32466FF81DB2C085004E0673 /* Noun.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32466F401DB2AE43004E0673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32466F491DB2AE43004E0673 /* XaddressLoaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32466F4B1DB2AE43004E0673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32466F541DB2AE43004E0673 /* XaddressLoaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32466F461DB2AE43004E0673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32466F2C1DB2AE43004E0673 /* XaddressLoader */;
+			targetProxy = 32466F451DB2AE43004E0673 /* PBXContainerItemProxy */;
+		};
+		32466F511DB2AE43004E0673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32466F2C1DB2AE43004E0673 /* XaddressLoader */;
+			targetProxy = 32466F501DB2AE43004E0673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32466F341DB2AE43004E0673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32466F351DB2AE43004E0673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32466F3C1DB2AE43004E0673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32466F3D1DB2AE43004E0673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32466F561DB2AE43004E0673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32466F571DB2AE43004E0673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32466F591DB2AE43004E0673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E6AE9A9FD89F09102938B7 /* Pods-XaddressLoader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XaddressLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xaddress.XaddressLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32466F5A1DB2AE43004E0673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FE847E2FD3BD0853F18089 /* Pods-XaddressLoader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XaddressLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xaddress.XaddressLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32466F5C1DB2AE43004E0673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FA3B3E4E504783CCA2C6B7 /* Pods-XaddressLoaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XaddressLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xaddress.XaddressLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XaddressLoader.app/XaddressLoader";
+			};
+			name = Debug;
+		};
+		32466F5D1DB2AE43004E0673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02710338D7884866AF298D23 /* Pods-XaddressLoaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XaddressLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xaddress.XaddressLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XaddressLoader.app/XaddressLoader";
+			};
+			name = Release;
+		};
+		32466F5F1DB2AE43004E0673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6596FEB388BB188250A6D2D /* Pods-XaddressLoaderUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = XaddressLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xaddress.XaddressLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XaddressLoader;
+			};
+			name = Debug;
+		};
+		32466F601DB2AE43004E0673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F722F745C52AA9C581EC8A /* Pods-XaddressLoaderUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = XaddressLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xaddress.XaddressLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XaddressLoader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32466F281DB2AE43004E0673 /* Build configuration list for PBXProject "XaddressLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32466F561DB2AE43004E0673 /* Debug */,
+				32466F571DB2AE43004E0673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32466F581DB2AE43004E0673 /* Build configuration list for PBXNativeTarget "XaddressLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32466F591DB2AE43004E0673 /* Debug */,
+				32466F5A1DB2AE43004E0673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32466F5B1DB2AE43004E0673 /* Build configuration list for PBXNativeTarget "XaddressLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32466F5C1DB2AE43004E0673 /* Debug */,
+				32466F5D1DB2AE43004E0673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32466F5E1DB2AE43004E0673 /* Build configuration list for PBXNativeTarget "XaddressLoaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32466F5F1DB2AE43004E0673 /* Debug */,
+				32466F601DB2AE43004E0673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32466FF91DB2C186004E0673 /* XaddressLoader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32466FFA1DB2C186004E0673 /* XaddressLoader.xcdatamodel */,
+			);
+			currentVersion = 32466FFA1DB2C186004E0673 /* XaddressLoader.xcdatamodel */;
+			path = XaddressLoader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32466F251DB2AE43004E0673 /* Project object */;
+}
