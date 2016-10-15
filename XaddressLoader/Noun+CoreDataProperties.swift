@@ -16,7 +16,7 @@ extension Noun {
 
     @NSManaged var code: String?
     @NSManaged var kind: String?
-    @NSManaged var popularity: Int64
+    @NSManaged var popularity: NSNumber?
     @NSManaged var word: String?
 
 }

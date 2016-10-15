@@ -14,11 +14,11 @@ import CoreData
 
 extension State {
 
-    @NSManaged var totalCombinations: Int32
+    @NSManaged var totalCombinations: NSNumber?
     @NSManaged var name2: String?
     @NSManaged var name1: String?
-    @NSManaged var lon: Double
-    @NSManaged var lat: Double
+    @NSManaged var lon: NSNumber?
+    @NSManaged var lat: NSNumber?
     @NSManaged var code: String?
     @NSManaged var bounds: String?
     @NSManaged var countryCode: String?

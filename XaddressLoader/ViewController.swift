@@ -37,7 +37,9 @@ class ViewController: UIViewController {
             let entity =  NSEntityDescription.entityForName("Noun", inManagedObjectContext: managedContext)
             let noun = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! Noun
             noun.word = row["word"]
-            noun.popularity = Int64(row["popularity"]!)!
+            if let popularity = row["popularity"], num = Int32(popularity) {
+                noun.popularity = NSNumber(int: num)
+            }
             noun.code = row["code"]
             noun.kind = row["kind"]
         }
@@ -46,7 +48,9 @@ class ViewController: UIViewController {
             let entity =  NSEntityDescription.entityForName("Adjective", inManagedObjectContext: managedContext)
             let adj = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! Adjective
             adj.word = row["word"]
-            adj.popularity = Int64(row["popularity"]!)!
+            if let popularity = row["popularity"], num = Int32(popularity) {
+                adj.popularity = NSNumber(int: num)
+            }
             adj.code = row["code"]
             adj.kind = row["kind"]
         }
@@ -60,7 +64,9 @@ class ViewController: UIViewController {
             country.lat = Double(row["lat"]!)!
             country.lon = Double(row["lng"]!)!
             country.bounds = row["bounds"]
-            country.totalCombinations = Int32(row["totalCombinations"]!)!
+            if let totalCombinations = row["popularity"], num = Int32(totalCombinations) {
+                country.totalCombinations = NSNumber(int: num)
+            }
         }
         
         states.enumerateAsDict { row in
@@ -73,10 +79,16 @@ class ViewController: UIViewController {
             state.name3 = row["name3"]
             state.googleName = row["googleName"]
             state.googleAdmin = row["googleAdmin"]
-            state.lat = Double(row["lat"]!)!
-            state.lon = Double(row["lng"]!)!
+            if let lat = row["lat"], num = Int32(lat) {
+                state.lat = NSNumber(int: num)
+            }
+            if let lon = row["lng"], num = Int32(lon) {
+                state.lon = NSNumber(int: num)
+            }
             state.bounds = row["bounds"]
-            state.totalCombinations = Int32(row["totalCombinations"]!)!
+            if let totalCombinations = row["popularity"], num = Int32(totalCombinations) {
+                state.totalCombinations = NSNumber(int: num)
+            }
         }
         
 

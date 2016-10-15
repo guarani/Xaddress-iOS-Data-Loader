@@ -18,15 +18,15 @@
 		32466F8F1DB2BB0E004E0673 /* countries.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F8E1DB2BB0E004E0673 /* countries.csv */; };
 		32466F911DB2BB28004E0673 /* states.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F901DB2BB28004E0673 /* states.csv */; };
 		32466FD81DB2C01C004E0673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FD71DB2C01C004E0673 /* AppDelegate.swift */; };
-		32466FF11DB2C085004E0673 /* State+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FE91DB2C085004E0673 /* State+CoreDataProperties.swift */; };
-		32466FF21DB2C085004E0673 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEA1DB2C085004E0673 /* State.swift */; };
-		32466FF31DB2C085004E0673 /* Adjective+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEB1DB2C085004E0673 /* Adjective+CoreDataProperties.swift */; };
-		32466FF41DB2C085004E0673 /* Adjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEC1DB2C085004E0673 /* Adjective.swift */; };
-		32466FF51DB2C085004E0673 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FED1DB2C085004E0673 /* Country+CoreDataProperties.swift */; };
-		32466FF61DB2C085004E0673 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEE1DB2C085004E0673 /* Country.swift */; };
-		32466FF71DB2C085004E0673 /* Noun+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FEF1DB2C085004E0673 /* Noun+CoreDataProperties.swift */; };
-		32466FF81DB2C085004E0673 /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FF01DB2C085004E0673 /* Noun.swift */; };
 		32466FFB1DB2C186004E0673 /* XaddressLoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32466FF91DB2C186004E0673 /* XaddressLoader.xcdatamodeld */; };
+		324670041DB2C437004E0673 /* Noun+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FFC1DB2C437004E0673 /* Noun+CoreDataProperties.swift */; };
+		324670051DB2C437004E0673 /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FFD1DB2C437004E0673 /* Noun.swift */; };
+		324670061DB2C437004E0673 /* Adjective+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FFE1DB2C437004E0673 /* Adjective+CoreDataProperties.swift */; };
+		324670071DB2C437004E0673 /* Adjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FFF1DB2C437004E0673 /* Adjective.swift */; };
+		324670081DB2C437004E0673 /* State+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670001DB2C437004E0673 /* State+CoreDataProperties.swift */; };
+		324670091DB2C437004E0673 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670011DB2C437004E0673 /* State.swift */; };
+		3246700A1DB2C437004E0673 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670021DB2C437004E0673 /* Country+CoreDataProperties.swift */; };
+		3246700B1DB2C437004E0673 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670031DB2C437004E0673 /* Country.swift */; };
 		3C410D298FB2E36E167D8F40 /* Pods_XaddressLoaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B438818F91F8C6CDAB7FDEB /* Pods_XaddressLoaderUITests.framework */; };
 		6FA5FD2C7771AA41D173AE27 /* Pods_XaddressLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8325EFD94E2BA37857A8E141 /* Pods_XaddressLoader.framework */; };
 		8821DD5A3459009712185E70 /* Pods_XaddressLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53D99785993B1538F0DE533 /* Pods_XaddressLoaderTests.framework */; };
@@ -68,15 +68,15 @@
 		32466F8E1DB2BB0E004E0673 /* countries.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.csv; sourceTree = "<group>"; };
 		32466F901DB2BB28004E0673 /* states.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = states.csv; sourceTree = "<group>"; };
 		32466FD71DB2C01C004E0673 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32466FE91DB2C085004E0673 /* State+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "State+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		32466FEA1DB2C085004E0673 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		32466FEB1DB2C085004E0673 /* Adjective+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Adjective+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		32466FEC1DB2C085004E0673 /* Adjective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adjective.swift; sourceTree = "<group>"; };
-		32466FED1DB2C085004E0673 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		32466FEE1DB2C085004E0673 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		32466FEF1DB2C085004E0673 /* Noun+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Noun+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		32466FF01DB2C085004E0673 /* Noun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
 		32466FFA1DB2C186004E0673 /* XaddressLoader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XaddressLoader.xcdatamodel; sourceTree = "<group>"; };
+		32466FFC1DB2C437004E0673 /* Noun+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Noun+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32466FFD1DB2C437004E0673 /* Noun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
+		32466FFE1DB2C437004E0673 /* Adjective+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Adjective+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32466FFF1DB2C437004E0673 /* Adjective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adjective.swift; sourceTree = "<group>"; };
+		324670001DB2C437004E0673 /* State+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "State+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		324670011DB2C437004E0673 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		324670021DB2C437004E0673 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		324670031DB2C437004E0673 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		34FA3B3E4E504783CCA2C6B7 /* Pods-XaddressLoaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderTests/Pods-XaddressLoaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B438818F91F8C6CDAB7FDEB /* Pods_XaddressLoaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XaddressLoaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F722F745C52AA9C581EC8A /* Pods-XaddressLoaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderUITests/Pods-XaddressLoaderUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,15 +153,15 @@
 		32466F2F1DB2AE43004E0673 /* XaddressLoader */ = {
 			isa = PBXGroup;
 			children = (
+				32466FFC1DB2C437004E0673 /* Noun+CoreDataProperties.swift */,
+				32466FFD1DB2C437004E0673 /* Noun.swift */,
+				32466FFE1DB2C437004E0673 /* Adjective+CoreDataProperties.swift */,
+				32466FFF1DB2C437004E0673 /* Adjective.swift */,
+				324670001DB2C437004E0673 /* State+CoreDataProperties.swift */,
+				324670011DB2C437004E0673 /* State.swift */,
+				324670021DB2C437004E0673 /* Country+CoreDataProperties.swift */,
+				324670031DB2C437004E0673 /* Country.swift */,
 				32466FF91DB2C186004E0673 /* XaddressLoader.xcdatamodeld */,
-				32466FE91DB2C085004E0673 /* State+CoreDataProperties.swift */,
-				32466FEA1DB2C085004E0673 /* State.swift */,
-				32466FEB1DB2C085004E0673 /* Adjective+CoreDataProperties.swift */,
-				32466FEC1DB2C085004E0673 /* Adjective.swift */,
-				32466FED1DB2C085004E0673 /* Country+CoreDataProperties.swift */,
-				32466FEE1DB2C085004E0673 /* Country.swift */,
-				32466FEF1DB2C085004E0673 /* Noun+CoreDataProperties.swift */,
-				32466FF01DB2C085004E0673 /* Noun.swift */,
 				32466F8E1DB2BB0E004E0673 /* countries.csv */,
 				32466F901DB2BB28004E0673 /* states.csv */,
 				32466F6D1DB2B37B004E0673 /* adjectives.csv */,
@@ -470,17 +470,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3246700A1DB2C437004E0673 /* Country+CoreDataProperties.swift in Sources */,
+				324670051DB2C437004E0673 /* Noun.swift in Sources */,
+				324670061DB2C437004E0673 /* Adjective+CoreDataProperties.swift in Sources */,
+				324670071DB2C437004E0673 /* Adjective.swift in Sources */,
 				32466FFB1DB2C186004E0673 /* XaddressLoader.xcdatamodeld in Sources */,
 				32466FD81DB2C01C004E0673 /* AppDelegate.swift in Sources */,
-				32466FF61DB2C085004E0673 /* Country.swift in Sources */,
-				32466FF31DB2C085004E0673 /* Adjective+CoreDataProperties.swift in Sources */,
-				32466FF41DB2C085004E0673 /* Adjective.swift in Sources */,
-				32466FF11DB2C085004E0673 /* State+CoreDataProperties.swift in Sources */,
-				32466FF71DB2C085004E0673 /* Noun+CoreDataProperties.swift in Sources */,
-				32466FF51DB2C085004E0673 /* Country+CoreDataProperties.swift in Sources */,
+				324670091DB2C437004E0673 /* State.swift in Sources */,
+				3246700B1DB2C437004E0673 /* Country.swift in Sources */,
+				324670081DB2C437004E0673 /* State+CoreDataProperties.swift in Sources */,
 				32466F331DB2AE43004E0673 /* ViewController.swift in Sources */,
-				32466FF21DB2C085004E0673 /* State.swift in Sources */,
-				32466FF81DB2C085004E0673 /* Noun.swift in Sources */,
+				324670041DB2C437004E0673 /* Noun+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
