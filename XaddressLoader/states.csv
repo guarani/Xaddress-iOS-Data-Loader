@@ -1,4 +1,4 @@
-countryCode,code,name1,name2,name3,googleName,googleAdmin,countryName,lat,lng,bounds,totalCombinations
+countryCode,stateCode,stateName1,stateName2,stateName3,googleName,googleAdmin,countryName,lat,lng,bounds,combinaciones
 AR,AR-C,Buenos Aires F.D.,Buenos Aires F.D.,Ciudad Autonoma de Buenos Aires,"Autonomous City of Buenos Aires, Argentina",administrative_area_level_1,Argentina,-34.6,-58.45,-34.5265464@-58.33518840000001*-34.7055085@-58.5314522,0
 AR,AR-H,Chaco,Chaco,Provincia del Chaco,"Chaco Province, Argentina",administrative_area_level_1,Argentina,-26.33333,-60.5,-24.087868@-58.36362669999999*-27.9955354@-63.42735880000001,24
 AR,AR-U,Chubut,Chubut,Provincia del Chubut,"Chubut Province, Argentina",administrative_area_level_1,Argentina,-44,-69,-41.9916218@-63.5832832*-46.0022302@-72.1973388,60

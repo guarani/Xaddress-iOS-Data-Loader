@@ -1,4 +1,4 @@
-code,name,nameES,lat,lng,bounds,totalCombinations,kind
+countryCode,countryName,Nombre,lat,lng,bounds,combinaciones,tipo
 AR,Argentina,Argentina,-34,-64,-21.7810459@-53.637481*-55.05727899999999@-73.5603601,735,
 BO,Bolivia,Bolivia,-17,-65,-9.669323@-57.453803*-22.8980899@-69.64498999999999,182,
 BR,Brazil,Brasil,-10,-55,5.2717863@-29.3450235*-33.7509909@-73.982817,1800,

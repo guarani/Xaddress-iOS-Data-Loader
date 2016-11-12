@@ -21,12 +21,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("Please wait, creating Core Data database from CSV files...")
+        
         // Read the CSV files.
         do {
             countries = try CSV(name: NSBundle.mainBundle().pathForResource("countries", ofType: "csv")!)
             states = try CSV(name: NSBundle.mainBundle().pathForResource("states", ofType: "csv")!)
-            nouns = try CSV(name: NSBundle.mainBundle().pathForResource("nouns", ofType: "csv")!)
-            adjectives = try CSV(name: NSBundle.mainBundle().pathForResource("adjectives", ofType: "csv")!)
+            nouns = try CSV(name: NSBundle.mainBundle().pathForResource("en", ofType: "csv")!)
+            adjectives = try CSV(name: NSBundle.mainBundle().pathForResource("adj_en", ofType: "csv")!)
         } catch {
             // Catch
         }
@@ -34,49 +36,54 @@ class ViewController: UIViewController {
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedContext = appDelegate.managedObjectContext
         nouns.enumerateAsDict { row in
-            let entity =  NSEntityDescription.entityForName("Noun", inManagedObjectContext: managedContext)
-            let noun = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! Noun
+            //word,popularity,code,type
+            let entity =  NSEntityDescription.entityForName("XANoun", inManagedObjectContext: managedContext)
+            let noun = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! XANoun
             noun.word = row["word"]
             if let popularity = row["popularity"], num = Int32(popularity) {
                 noun.popularity = NSNumber(int: num)
             }
             noun.code = row["code"]
-            noun.kind = row["kind"]
+            noun.kind = row["type"]
         }
         
         adjectives.enumerateAsDict { row in
-            let entity =  NSEntityDescription.entityForName("Adjective", inManagedObjectContext: managedContext)
-            let adj = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! Adjective
+            //word,popularity,code,type
+            let entity =  NSEntityDescription.entityForName("XAAdjective", inManagedObjectContext: managedContext)
+            let adj = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! XAAdjective
             adj.word = row["word"]
             if let popularity = row["popularity"], num = Int32(popularity) {
                 adj.popularity = NSNumber(int: num)
             }
             adj.code = row["code"]
-            adj.kind = row["kind"]
+            adj.kind = row["type"]
         }
         
         countries.enumerateAsDict { row in
-            let entity =  NSEntityDescription.entityForName("Country", inManagedObjectContext: managedContext)
-            let country = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! Country
-            country.code = row["code"]
-            country.name = row["name"]
-            country.nameES = row["nameES"]
+            //countryCode,countryName,Nombre,lat,lng,bounds,combinaciones,tipo
+            let entity =  NSEntityDescription.entityForName("XACountry", inManagedObjectContext: managedContext)
+            let country = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! XACountry
+            country.code = row["countryCode"]
+            country.name = row["countryName"]
+            country.nameES = row["Nombre"]
             country.lat = Double(row["lat"]!)!
             country.lon = Double(row["lng"]!)!
             country.bounds = row["bounds"]
-            if let totalCombinations = row["popularity"], num = Int32(totalCombinations) {
+            if let totalCombinations = row["combinaciones"], num = Int32(totalCombinations) {
                 country.totalCombinations = NSNumber(int: num)
             }
+            country.kind = row["tipo"]
         }
         
         states.enumerateAsDict { row in
-            let entity =  NSEntityDescription.entityForName("State", inManagedObjectContext: managedContext)
-            let state = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! State
+            //countryCode,stateCode,stateName1,stateName2,stateName3,googleName,googleAdmin,countryName,lat,lng,bounds,combinaciones
+            let entity =  NSEntityDescription.entityForName("XAState", inManagedObjectContext: managedContext)
+            let state = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext) as! XAState
             state.countryCode = row["countryCode"]
             state.countryName = row["countryName"]
-            state.name1 = row["name1"]
-            state.name2 = row["name2"]
-            state.name3 = row["name3"]
+            state.name1 = row["stateName1"]
+            state.name2 = row["stateName2"]
+            state.name3 = row["stateName3"]
             state.googleName = row["googleName"]
             state.googleAdmin = row["googleAdmin"]
             if let lat = row["lat"], num = Int32(lat) {
@@ -86,7 +93,7 @@ class ViewController: UIViewController {
                 state.lon = NSNumber(int: num)
             }
             state.bounds = row["bounds"]
-            if let totalCombinations = row["popularity"], num = Int32(totalCombinations) {
+            if let totalCombinations = row["combinaciones"], num = Int32(totalCombinations) {
                 state.totalCombinations = NSNumber(int: num)
             }
         }
@@ -94,7 +101,7 @@ class ViewController: UIViewController {
 
         do {
             try managedContext.save()
-            print("Saved in:", NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).last! as String)
+            print("Created successfully in:\n", NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).last! as String)
         } catch let error as NSError  {
             print("Could not save \(error), \(error.userInfo)")
         }
