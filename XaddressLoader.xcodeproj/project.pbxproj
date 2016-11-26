@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320ECFBF1DE9D0EF00649B08 /* XALoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32466FF91DB2C186004E0673 /* XALoader.xcdatamodeld */; };
 		32466F331DB2AE43004E0673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466F321DB2AE43004E0673 /* ViewController.swift */; };
 		32466F361DB2AE43004E0673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32466F341DB2AE43004E0673 /* Main.storyboard */; };
 		32466F3B1DB2AE43004E0673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32466F3A1DB2AE43004E0673 /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		32466F8F1DB2BB0E004E0673 /* countries.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F8E1DB2BB0E004E0673 /* countries.csv */; };
 		32466F911DB2BB28004E0673 /* states.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32466F901DB2BB28004E0673 /* states.csv */; };
 		32466FD81DB2C01C004E0673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32466FD71DB2C01C004E0673 /* AppDelegate.swift */; };
-		32466FFB1DB2C186004E0673 /* XALoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32466FF91DB2C186004E0673 /* XALoader.xcdatamodeld */; };
 		324670881DB2D0E5004E0673 /* XAAdjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670801DB2D0E5004E0673 /* XAAdjective.swift */; };
 		324670891DB2D0E5004E0673 /* XAAdjective+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670811DB2D0E5004E0673 /* XAAdjective+CoreDataProperties.swift */; };
 		3246708A1DB2D0E5004E0673 /* XACountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670821DB2D0E5004E0673 /* XACountry.swift */; };
@@ -25,6 +25,9 @@
 		3246708D1DB2D0E5004E0673 /* XANoun+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670851DB2D0E5004E0673 /* XANoun+CoreDataProperties.swift */; };
 		3246708E1DB2D0E5004E0673 /* XAState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670861DB2D0E5004E0673 /* XAState.swift */; };
 		3246708F1DB2D0E5004E0673 /* XAState+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324670871DB2D0E5004E0673 /* XAState+CoreDataProperties.swift */; };
+		32904BF41DD7DD6C000F8229 /* images.csv in Resources */ = {isa = PBXBuildFile; fileRef = 32904BF31DD7DD6C000F8229 /* images.csv */; };
+		32904BF71DD7DE59000F8229 /* XAImage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32904BF51DD7DE59000F8229 /* XAImage+CoreDataProperties.swift */; };
+		32904BF81DD7DE59000F8229 /* XAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32904BF61DD7DE59000F8229 /* XAImage.swift */; };
 		3298178D1DC4FB5A009B0B49 /* adj_en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3298178B1DC4FB5A009B0B49 /* adj_en.csv */; };
 		3298178E1DC4FB5A009B0B49 /* en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3298178C1DC4FB5A009B0B49 /* en.csv */; };
 		3C410D298FB2E36E167D8F40 /* Pods_XaddressLoaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B438818F91F8C6CDAB7FDEB /* Pods_XaddressLoaderUITests.framework */; };
@@ -75,6 +78,9 @@
 		324670851DB2D0E5004E0673 /* XANoun+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XANoun+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		324670861DB2D0E5004E0673 /* XAState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAState.swift; sourceTree = "<group>"; };
 		324670871DB2D0E5004E0673 /* XAState+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XAState+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32904BF31DD7DD6C000F8229 /* images.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = images.csv; sourceTree = "<group>"; };
+		32904BF51DD7DE59000F8229 /* XAImage+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XAImage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32904BF61DD7DE59000F8229 /* XAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAImage.swift; sourceTree = "<group>"; };
 		3298178B1DC4FB5A009B0B49 /* adj_en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adj_en.csv; sourceTree = "<group>"; };
 		3298178C1DC4FB5A009B0B49 /* en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.csv; sourceTree = "<group>"; };
 		34FA3B3E4E504783CCA2C6B7 /* Pods-XaddressLoaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XaddressLoaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XaddressLoaderTests/Pods-XaddressLoaderTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 				324670851DB2D0E5004E0673 /* XANoun+CoreDataProperties.swift */,
 				324670861DB2D0E5004E0673 /* XAState.swift */,
 				324670871DB2D0E5004E0673 /* XAState+CoreDataProperties.swift */,
+				32904BF51DD7DE59000F8229 /* XAImage+CoreDataProperties.swift */,
+				32904BF61DD7DE59000F8229 /* XAImage.swift */,
 				32466F2F1DB2AE43004E0673 /* XaddressLoader */,
 				32466F471DB2AE43004E0673 /* XaddressLoaderTests */,
 				32466F521DB2AE43004E0673 /* XaddressLoaderUITests */,
@@ -161,6 +169,7 @@
 		32466F2F1DB2AE43004E0673 /* XaddressLoader */ = {
 			isa = PBXGroup;
 			children = (
+				32904BF31DD7DD6C000F8229 /* images.csv */,
 				3298178B1DC4FB5A009B0B49 /* adj_en.csv */,
 				3298178C1DC4FB5A009B0B49 /* en.csv */,
 				32466F8E1DB2BB0E004E0673 /* countries.csv */,
@@ -318,6 +327,7 @@
 			files = (
 				32466F3E1DB2AE43004E0673 /* LaunchScreen.storyboard in Resources */,
 				32466F3B1DB2AE43004E0673 /* Assets.xcassets in Resources */,
+				32904BF41DD7DD6C000F8229 /* images.csv in Resources */,
 				32466F911DB2BB28004E0673 /* states.csv in Resources */,
 				32466F8F1DB2BB0E004E0673 /* countries.csv in Resources */,
 				32466F361DB2AE43004E0673 /* Main.storyboard in Resources */,
@@ -470,15 +480,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320ECFBF1DE9D0EF00649B08 /* XALoader.xcdatamodeld in Sources */,
 				324670881DB2D0E5004E0673 /* XAAdjective.swift in Sources */,
 				324670891DB2D0E5004E0673 /* XAAdjective+CoreDataProperties.swift in Sources */,
 				3246708A1DB2D0E5004E0673 /* XACountry.swift in Sources */,
+				32904BF81DD7DE59000F8229 /* XAImage.swift in Sources */,
 				3246708B1DB2D0E5004E0673 /* XACountry+CoreDataProperties.swift in Sources */,
+				32904BF71DD7DE59000F8229 /* XAImage+CoreDataProperties.swift in Sources */,
 				3246708C1DB2D0E5004E0673 /* XANoun.swift in Sources */,
 				3246708D1DB2D0E5004E0673 /* XANoun+CoreDataProperties.swift in Sources */,
 				3246708E1DB2D0E5004E0673 /* XAState.swift in Sources */,
 				3246708F1DB2D0E5004E0673 /* XAState+CoreDataProperties.swift in Sources */,
-				32466FFB1DB2C186004E0673 /* XALoader.xcdatamodeld in Sources */,
 				32466FD81DB2C01C004E0673 /* AppDelegate.swift in Sources */,
 				32466F331DB2AE43004E0673 /* ViewController.swift in Sources */,
 			);

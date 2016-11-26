@@ -16,6 +16,11 @@
         <attribute name="nameES" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="totalCombinations" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
     </entity>
+    <entity name="XAImage" representedClassName=".XAImage" syncable="YES">
+        <attribute name="en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="es" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
     <entity name="XANoun" representedClassName=".XANoun" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="kind" optional="YES" attributeType="String" syncable="YES"/>
@@ -38,8 +43,9 @@
     </entity>
     <elements>
         <element name="XAAdjective" positionX="-36" positionY="36" width="128" height="105"/>
-        <element name="XANoun" positionX="-54" positionY="-9" width="128" height="105"/>
         <element name="XACountry" positionX="-18" positionY="72" width="128" height="165"/>
+        <element name="XANoun" positionX="-54" positionY="-9" width="128" height="105"/>
         <element name="XAState" positionX="0" positionY="126" width="128" height="225"/>
+        <element name="XAImage" positionX="-27" positionY="144" width="128" height="90"/>
     </elements>
 </model>
